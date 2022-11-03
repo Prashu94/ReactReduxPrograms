@@ -1,0 +1,8 @@
+.card {
+    float: left;
+    margin-left: 350px;
+    border-color: black;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px grey;
+    align-items: center;
+  }
