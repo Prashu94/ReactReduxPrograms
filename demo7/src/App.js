@@ -4,7 +4,7 @@ import React from 'react';
 import image1 from './Jack.png';
 import image2 from './Jill.png';
 import EmployeeProps from './EmployeeProps';
-
+import App1 from './'
 class App extends React.Component{
   constructor(){
     super();
