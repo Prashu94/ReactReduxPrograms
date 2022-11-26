@@ -1,0 +1,67 @@
+{
+  "books": [
+    {
+      "title": "Origins",
+      "author": "Dan Brown",
+      "genre": "Medical thriller",
+      "summary": "The fifth installment in the Robert Langdon series",
+      "id": 1001
+    },
+    {
+      "title": "Crisis",
+      "author": "Robin Cook",
+      "genre": "Mystery thriller",
+      "summary": "The terrifying story of a doctor who is the victim of a medical malpractise crisis",
+      "id": 1002
+    },
+    {
+      "title": "Harry Potter: The Chambers of Secrets",
+      "author": "J.K.Rowling",
+      "genre": "drama",
+      "summary": "Harry Potter series, the story of his life at Hogwarts",
+      "id": 1003
+    },
+    {
+      "title": "Game Of Thrones",
+      "author": "George RR Martin",
+      "genre": "drama",
+      "summary": "The story of 7 kingdoms of Westros",
+      "id": 1004
+    },
+    {
+      "title": "House Of Dragon",
+      "author": "George RR Martin",
+      "genre": "mystery",
+      "summary": "The origin story of dragons and House Targaryn",
+      "id": 1005
+    },
+    {
+      "title": "Fire and Blood",
+      "author": "George RR Martin",
+      "genre": "thriller",
+      "summary": "The origin story of dragons and House Targaryn and start of Game Of Thrones",
+      "id": 1006
+    },
+    {
+      "title": "Harry Potter: The Phoneix",
+      "author": "J.K Rowling",
+      "genre": "thriller",
+      "summary": "Harry Potter: The Phoniex Rise.",
+      "id": 1007
+    },
+    {
+      "title": "Lord of the Rings",
+      "author": "RR Tolkein",
+      "genre": "thriller",
+      "summary": "The story about the lord of the rings.",
+      "id": 1008
+    },
+    {
+      "title": "Shiva",
+      "author": "Amish Tripathi",
+      "genre": "mystery",
+      "summary": "Shiva Series",
+      "id": 1009
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Card from "./Card";
 import EditEmployee from "./EmployeeEdit";
+import AddEmployee from "./AddEmployee";
 class Header extends React.Component{
     render = () => {
         return(
@@ -24,6 +25,7 @@ class Header extends React.Component{
                     <Route exact path = "/" element = {<Navigate to ="/card"/>}/>
                     <Route path = "/card" element = {<Card/>}/>
                     <Route path = "/edit/:id" element = {<EditEmployee/>}/>
+                    <Route path = "/add" element = {<AddEmployee/>}/>
                 </Routes>
             </>
         );

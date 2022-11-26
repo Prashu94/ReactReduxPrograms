@@ -18,8 +18,8 @@ class Employee extends React.Component{
 
     render = () =>{
         const {emp} = this.props
-        var note = null;
-        var redirect = null;
+        let note = null;
+        let redirect = null;
 
         if(emp.age < 25){
             note = <span className="text-info"> - Fresher</span>

@@ -1,11 +1,9 @@
 import React from 'react';
 
-import {BrowserRouter as Router, Route, Link, Routes, Navigate } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link, Switch, Redirect  } from 'react-router-dom';
 
-// import required components
-import ViewAllBooks from './components/viewAllBooks';
-import AddBook from './components/addbook';
-import Contact from './components/contact';
+// import the required components
+
 class App extends React.Component {
     render() {
         return (
@@ -28,13 +26,9 @@ class App extends React.Component {
                 </ul>
               </nav>
               <br/>
-              <Routes>
-                <Route exact path = "/" element={<Navigate to="/card"/>}/>
-                <Route path = "/card" element={<ViewAllBooks/>}/>
-                <Route path = "/addBook" element={<AddBook/>}/>
-                <Route path = "/contact" element={<Contact/>}/>
-                <Route/>
-              </Routes>
+               <Switch>
+                {/*Implement the routes*/}
+              </Switch>
 
             </React.Fragment>
           </Router>   
